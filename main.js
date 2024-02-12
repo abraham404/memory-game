@@ -19,7 +19,7 @@ function countTimer() {
                 clearInterval(regressiveTime)
                 Swal.fire({
                     icon: "error",
-                    title: "¡¡¡Se acabo el tiempo 😨!!!",
+                    title: "¡¡¡Se acabo tu tiempo 😨!!!",
                     showConfirmButton: true,
 
                 }).then((result) => {
@@ -61,7 +61,7 @@ const uncover = (id) => {
             card1.style.cssText = `background-color: rgba(0, 255, 0, 0.6);`;
             successesCount++;
 
-            successes.innerHTML = `Asiertos: ${successesCount}`;
+            successes.innerHTML = `Aciertos: ${successesCount}`;
 
             if (successesCount === 8) {
                 clearInterval(regressiveTime);
