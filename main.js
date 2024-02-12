@@ -3,7 +3,7 @@ let uncoverCards = 0;
 let card1 = null, card2 = null, firstResult = null, secondResult = null;
 let move = 0, successesCount = 0;
 let timer = false;
-let timerCount = 35;
+let timerCount = 38;
 let regressiveTime = null;
 
 numbers = numbers.sort(() => { return Math.random() - 0.5 });
